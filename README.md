@@ -1,24 +1,24 @@
 # ITI-Graduation-Project (E-commerce-System)
 Implemented a database for e-commerce from scratch,Created data pipelines to load the data into the data warehouse, extracted useful information by applying different business intelligence solutions, and deployed machine learning models to predict profits.
 ## Project Steps
--Database Design
+- Database Design
 
---> Designed and created an Entity-Relationship (ER) Diagram and mapping to model the database.
+-- Designed and created an Entity-Relationship (ER) Diagram and mapping to model the database.
 
---> Implemented a database using Microsoft SQL Server and added stored procedures, views, functions, and triggers to ensure data consistency and integrity.
+-- Implemented a database using Microsoft SQL Server and added stored procedures, views, functions, and triggers to ensure data consistency and integrity.
 
--Stored Procedures
+- Stored Procedures
 
---> created 24 stored procedures that allow customers to view and search for products, place orders, and perform other actions. Additionally, business analysts can use the procedures to view key performance indicators (KPIs) such as sales and profits.
+-- created 24 stored procedures that allow customers to view and search for products, place orders, and perform other actions. Additionally, business analysts can use the procedures to view key performance indicators (KPIs) such as sales and profits.
 
--Data warehouse Design
---> Designed and Implemented a star schema data warehouse in sql server.
+- Data warehouse Design
+-- Designed and Implemented a star schema data warehouse in sql server.
 
---> Created data pipelines to load the data into the data warehouse.
+-- Created data pipelines to load the data into the data warehouse.
 
---> designed Ad hoc reports to make it easy to garner insights on the fly.
+-- designed Ad hoc reports to make it easy to garner insights on the fly.
 
--created interactive dashboards
+- created interactive dashboards
 
 - Developed a Python-based desktop application to allow users to register, log in, view products, place orders, and more.
 - deployed a machine learning model on a small website
