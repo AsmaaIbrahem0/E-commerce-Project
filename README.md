@@ -20,15 +20,17 @@ Implemented a database for e-commerce from scratch,Created data pipelines to loa
  
 - deployed a machine learning model on a small website
 ## Technical Details
-The database and data warehouse were developed on SQL Server
-The data pipelines for ETL were implemented using SSIS.
-The dashboards of all aspects of the database entities are created using power bi
-The desktop application uses two libraries:
-one to connect to the SQL Server called pyodbc
-the other to create the GUI called PyQt5.
-Through the app, customers can register, log in, place orders, view and search for products, and access their order history.
-implemented machine learning models( LinearRegression - KNeighborsRegressor - SVR - DecisionTreeRegressor - RandomForestRegressor ) using scikit learn
-The Streamlit library was used to deploy the machine learning model.
+- The database and data warehouse were developed on SQL Server 
+- The data pipelines for ETL were implemented using SSIS. 
+- Reports was created using SSRS 
+- the dashboards of all aspects of the database entities are created using power bi  
+- The desktop application uses two libraries: 
+  - one to connect to the SQL Server called pyodbc 
+  - the other to create the GUI called PyQt5.
+  - Through the app, customers can register, log in, place orders, view and search for products, and access their order history.
+- implemented machine learning models( LinearRegression - KNeighborsRegressor - SVR - DecisionTreeRegressor - RandomForestRegressor ) using scikit learn
+- The Streamlit library was used to deploy the machine learning model.
+
 ## Demo
 - implemented the database,After mapping the ER diagram.
 ![image](https://user-images.githubusercontent.com/82019926/219908648-b7c18380-afbd-4b06-b57b-316abfc096f9.png)
